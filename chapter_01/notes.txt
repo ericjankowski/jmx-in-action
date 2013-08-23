@@ -1,0 +1,8 @@
+JMX in Action - Chapter 01 Notes
+
+Chapter 1 gives a pretty non-technical overview of the JMX paradigm.
+
+Three main layers:
+- Distributed Layer
+- Agent Layer
+- Instrumentation Layer

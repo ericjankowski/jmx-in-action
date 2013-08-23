@@ -1,0 +1,6 @@
+JMX in Action - Chapter 02 Notes
+
+JMX Architecture
+- Instrumentation Layer - Contains MBeans and their manageable resources
+- Agent Layer - Contains the JMX agents used to expose the MBeans
+- Distributed Layer - Contains components that enable management applications to communicate with JMX agents
