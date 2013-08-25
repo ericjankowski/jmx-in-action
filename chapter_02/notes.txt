@@ -4,3 +4,8 @@ JMX Architecture
 - Instrumentation Layer - Contains MBeans and their manageable resources
 - Agent Layer - Contains the JMX agents used to expose the MBeans
 - Distributed Layer - Contains components that enable management applications to communicate with JMX agents
+
+MBeanServer
+- The MBeanServer is the heart of the JMX agents.
+- It is created using MBeanServerFactory
+- These smell like singletons specific to a domain with a unique name
