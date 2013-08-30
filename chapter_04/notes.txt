@@ -1,0 +1,18 @@
+JMX in Action - Chapter 04 Notes
+
+Common coding rules for all MBeans
+1.  MBeans must be concrete Java classes
+	- not abstract
+	- can be instantiated
+2.  MBeans must have a public constructor
+	- no other constructor rules
+3.  MBeans must implement an MBean interface (one and only one)
+	- either its own or the javax.management.DynamicMBean interface
+	- naming scheme ClassNameMBean
+4.  MBeans must implement the javax.management.NotificationBroadcaster interface in order to send notifications
+
+Standard MBeans
+- implement their own interface (not the javax.management.DymanicMBean interface)
+- the interface must be in the same padkage as the implementation in order to be a valid MBean
+- Constructors can not be inherited 
+
