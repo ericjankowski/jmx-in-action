@@ -12,6 +12,10 @@ public class PropertyManager implements PropertyManagerMBean {
 		setSource(path);
 	}
 	
+	public PropertyManager(){
+		setSource( "default.properties");
+	}
+	
 	public String getProperty(String key){
 		return properties.getProperty(key);
 	}
